@@ -1,0 +1,12 @@
+.statistics {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.stat_list {
+    display: flex;
+    border: 5px solid rgb(165, 195, 201);
+    border-radius: 5px;
+}

@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types'
+import css from './FriendListItem.module.css'
 
 
 export default function FriendListItem({
@@ -7,10 +8,10 @@ export default function FriendListItem({
     isOnline
 }) {
     return (
-        <li className="item">
+        <li className={css.item}>
             {isOnline ? (
                 <span
-                    className="status"
+                    className={css.status}
                     style={{
                         display: "block",
                         width: 12,
@@ -21,7 +22,7 @@ export default function FriendListItem({
                 </span>
             ) : (
                 <span
-                    className="status"
+                    className={css.status}
                     style={{
                         display: "block",
                         width: 12,
@@ -31,8 +32,8 @@ export default function FriendListItem({
                     }}>
                 </span>  
             )}
-            <img className="avatar" src={avatar} alt="User avatar" width="48" />
-            <p className="name">{name}</p>
+            <img className={css.avatar} src={avatar} alt="User avatar" width="48" />
+            <p className={css.name}>{name}</p>
         </li>
     )
 }

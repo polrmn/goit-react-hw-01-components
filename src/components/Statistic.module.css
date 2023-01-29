@@ -1,0 +1,10 @@
+.item {
+    padding: 5px;
+    border: 2px solid rgb(165, 195, 201);
+}
+
+.label,
+.percentage {
+    display: block;
+    text-align: center;
+}

@@ -3,17 +3,17 @@ import data from '../data.json'
 import friends from '../friends.json'
 import transactions from '../transactions.json'
 
-
 import Profile from './Profile'
 import Statistics from './Statistics'
 import FriendList from './FriendList'
 import TransactionHistory from './TransactionHistory'
 
+import css from './App.module.css'
 
 
 export default function App() {
   return (
-    <div className='container'>
+    <div className={css.container}>
       <Profile
         username={user.username}
         tag={user.tag}
