@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import Statistic from './Statistic';
+import Statistic from '../Statistic/Statistic';
 import css from './Statistics.module.css'
 
 export default function Statistics({
